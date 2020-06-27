@@ -1,0 +1,55 @@
+.mydiv{margin:0px; padding:0px; list-style:none;}
+.mydiv{
+	background:#666;
+}
+.mydiv li: {
+	list-style:none;
+	
+}
+	 
+			 
+.mydiv li a{
+	 text-decoration:none;
+	 color:#ddd;
+	 display:block;
+	 margin-bottom:0px;
+	 padding:10px;
+}
+.mydiv li a:hover{
+	 background:#fff;
+ }
+.mainnav{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+
+}
+.mainnav li{
+	 float:left;
+}
+.mainnav li a {
+    text-decoration: none;
+    background: #333;
+    padding: 5px;
+    margin: 2px;
+    color: #fff;
+}
+.mainnav li a:hover{
+	background:#ddd;
+	color:#000;
+}
+table.mytable{
+	margin:20px 10px 10px 2px;
+	width:700px;
+}
+table.mytable tr td{
+	text-align:center;
+}
+table.mytable tr th{	
+	text-align:center;
+	background:#999;
+	color:#fff;
+	padding:5px;
+}
+table.mytable tr:nth-child(2n+1){background:#fff; height:30px;}
+table.mytable tr:nth-child(2n){background:#ccc; height:30px;}
